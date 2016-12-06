@@ -11,7 +11,6 @@ package com.javarush.test.level04.lesson04.task10;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 
 public class Solution
 {
@@ -34,50 +33,6 @@ public class Solution
         }
 
         System.out.println();
-
-//        int[][][] testsValue = {{{1, 2, 2}, {2, 2}},{{2, 2, 2}, {2, 2, 2}}};
-//
-//        for (int[][] arrysInt :
-//                testsValue) {
-//            int[] outputValue = getEquals(arrysInt[0]);
-//
-//            if (Arrays.equals(outputValue, arrysInt[1])) {
-//
-//                String s = "The test is complied! : ";
-//                System.out.print(s);
-//
-//                for (int i :
-//                     outputValue) {
-//
-//                    System.out.print(i + " ");
-//
-//                }
-//            } else {
-//
-//                String s = "The test isn't correctly! : ";
-//                System.out.print(s);
-//
-//                for (int i :
-//                        outputValue) {
-//
-//                    System.out.print(i + " ");
-//
-//                }
-//
-//                System.out.print(" vs ");
-//
-//                for (int i :
-//                        arrysInt[1]) {
-//
-//                    System.out.print(i + " ");
-//
-//                }
-//
-//            }
-//
-//            System.out.println();
-//
-//        }
 
     }
 
